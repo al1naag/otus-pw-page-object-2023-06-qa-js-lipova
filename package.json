@@ -1,0 +1,21 @@
+{
+  "name": "otus-pw-po-2023-06-qa-js-lipova",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:dev": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "codegen": "playwright codegen",
+    "report:show": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "Alina Lipova",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@playwright/test": "^1.38.0",
+    "@types/node": "^20.6.2"
+  }
+}
