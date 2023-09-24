@@ -12,15 +12,15 @@ test('Open the Main Page', async ({page}) => {
 test('Burger menu can be opened', async ({page}) => {
     const homePage = new HomePage(page);
     await homePage.open();
-    await homePage.clickBurgerMenuBtn();
+    await homePage.toggleSidebarMenu();
     await homePage.checkSidebarOpened();
 });
 
 test('Burger menu can be closed', async ({page}) => {
     const homePage = new HomePage(page);
     await homePage.open();
-    await homePage.clickBurgerMenuBtn();
-    await homePage.clickBurgerMenuBtn();
+    await homePage.toggleSidebarMenu();
+    await homePage.toggleSidebarMenu();
     await homePage.checkSidebarClosed();
 });
 

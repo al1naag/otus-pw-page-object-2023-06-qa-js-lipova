@@ -45,10 +45,3 @@ for (const facility of facilities) {
             });
     };
 };
-//
-// test('Make an Appointment without applying for hospital readmission', async ({page}) => {
-//     const loginPage = new LoginPage(page);
-//     const appointmentPage = await loginPage.login(username, password);
-//     await appointmentPage.bookAppointment(seoulFacility, noneRadio, 'No', day, comment);
-//     await appointmentPage.verifyAppointment(seoulFacility, 'None', 'No', date, comment);
-// });

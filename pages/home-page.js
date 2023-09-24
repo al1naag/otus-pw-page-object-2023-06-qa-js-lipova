@@ -19,7 +19,7 @@ class HomePage extends BasePage {
         await this._makeAppointmentBtn.click()
     }
 
-    async clickBurgerMenuBtn() {
+    async toggleSidebarMenu() {
         await this._burgerMenuBtn.click()
     }
 
